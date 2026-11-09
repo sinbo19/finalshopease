@@ -2,6 +2,10 @@
 
 ShopEase is a responsive online shopping marketplace built with React and Tailwind CSS. Users can explore products, search and filter by category, view product details, add products to their cart, and complete a checkout form.
 
+## Homepage Preview
+
+![ShopEase Homepage](screenshots/ShopEase-Homepage.png)
+
 ## Live Demo
 
 - **Live Website:** https://finalshopease.vercel.app/
@@ -53,36 +57,40 @@ src/
 │   └── cartReducer.js
 ├── App.jsx
 └── main.jsx
+
 screenshots/
+├── ShopEase-Homepage.png
+├── ShopEase-Lighthouse-Before-Fixes.png
+└── ShopEase-Lighthouse-Final-Results.png
 ```
 
 ## Installation and Setup
 
-1. Clone the repository:
+### 1. Clone the repository
 
 ```bash
 git clone https://github.com/sinbo19/finalshopease.git
 ```
 
-2. Open the project folder:
+### 2. Open the project folder
 
 ```bash
 cd finalshopease
 ```
 
-3. Install dependencies:
+### 3. Install dependencies
 
 ```bash
 npm install
 ```
 
-4. Start the development server:
+### 4. Start the development server
 
 ```bash
 npm run dev
 ```
 
-5. Build for production:
+### 5. Build for production
 
 ```bash
 npm run build
