@@ -82,7 +82,8 @@ screenshots/
 ├── ShopEase-Tablet.png
 ├── ShopEase-Desktop.png
 ├── ShopEase-Lighthouse-Before-Fixes.png
-└── ShopEase-Lighthouse-Final-Results.png
+├── ShopEase-Lighthouse-Final-Results.png
+└── ShopEase-Lighthouse-Latest.png
 ```
 
 ## Installation and Setup
@@ -119,14 +120,14 @@ npm run build
 
 ## Lighthouse Audit
 
-Lighthouse was used to test the deployed website on mobile.
+Lighthouse was used to test the deployed website. The following table compares the initial results with the latest results after improvements.
 
-| Category       | Before Fixes | After Fixes |
-| -------------- | -----------: | ----------: |
-| Performance    |           51 |          94 |
-| Accessibility  |          100 |         100 |
-| Best Practices |          100 |         100 |
-| SEO            |           83 |         100 |
+| Category | Before Fixes | Latest Results |
+|---|---:|---:|
+| Performance | 51 | **98** |
+| Accessibility | 100 | **100** |
+| Best Practices | 100 | **100** |
+| SEO | 83 | **92** |
 
 ### Improvements Made
 
@@ -143,17 +144,4 @@ Lighthouse was used to test the deployed website on mobile.
 
 ![Lighthouse Before Fixes](screenshots/ShopEase-Lighthouse-Before-Fixes.png)
 
-**After Fixes**
-
-![Lighthouse Final Results](screenshots/ShopEase-Lighthouse-Final-Results.png)
-
-## Limitations and Future Improvements
-
-- Add a backend and database to store products and orders.
-- Add user registration and login.
-- Integrate a secure payment system.
-- Add an administrator dashboard for managing products.
-
-## Author
-
-Developed as an individual frontend development project using React and Tailwind CSS.
+**Previous
