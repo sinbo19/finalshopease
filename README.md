@@ -1,6 +1,8 @@
 # ShopEase – Online Shopping Marketplace
 
-ShopEase is a responsive online shopping marketplace built with React and Tailwind CSS. Users can explore products, search and filter by category, view product details, add products to their cart, and complete a checkout form.
+**Chosen Option: Option B — Marketplace Product-Listing Page**
+
+ShopEase is a responsive online shopping marketplace built with React and Tailwind CSS. Users can explore a catalogue of 12 products, search and filter products by category, and view individual product details. They can add products to their cart, manage quantities, and complete a checkout form. The project demonstrates React components, state management, routing, accessibility, responsive design, and deployment.
 
 ## Homepage Preview
 
@@ -8,8 +10,8 @@ ShopEase is a responsive online shopping marketplace built with React and Tailwi
 
 ## Live Demo
 
-- **Live Website:** https://finalshopease.vercel.app/
-- **GitHub Repository:** https://github.com/sinbo19/finalshopease
+- **Live Website:** [https://finalshopease.vercel.app/](https://finalshopease.vercel.app/)
+- **GitHub Repository:** [https://github.com/sinbo19/finalshopease](https://github.com/sinbo19/finalshopease)
 
 ## Technologies Used
 
@@ -36,6 +38,22 @@ ShopEase is a responsive online shopping marketplace built with React and Tailwi
 - Responsive navigation.
 - Keyboard accessibility and visible focus indicators.
 
+## Responsive Design
+
+The website was tested at three screen widths to check its responsive layout.
+
+### Mobile View (375px)
+
+![ShopEase Mobile](screenshots/ShopEase-Mobile.png)
+
+### Tablet View (768px)
+
+![ShopEase Tablet](screenshots/ShopEase-Tablet.png)
+
+### Desktop View (1280px)
+
+![ShopEase Desktop](screenshots/ShopEase-Desktop.png)
+
 ## Project Structure
 
 ```text
@@ -60,6 +78,9 @@ src/
 
 screenshots/
 ├── ShopEase-Homepage.png
+├── ShopEase-Mobile.png
+├── ShopEase-Tablet.png
+├── ShopEase-Desktop.png
 ├── ShopEase-Lighthouse-Before-Fixes.png
 └── ShopEase-Lighthouse-Final-Results.png
 ```
